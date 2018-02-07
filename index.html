@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>While You Wait</title>
+	</head>
+	<body>
+		See Console.
+
+		<script>
+			
+			var daysUntilMyBirthday = 60;
+
+			while (daysUntilMyBirthday != 0) {
+				if(daysUntilMyBirthday > 30) {
+					console.log(daysUntilMyBirthday + " days until my birthday. Such a long time... :(");
+				} else if(daysUntilMyBirthday > 5) {
+					console.log(daysUntilMyBirthday + " days until my birthday. Not long now!");
+				} else if(daysUntilMyBirthday > 1){
+					console.log(daysUntilMyBirthday + " DAYS UNTIL MY BIRTHDAY!!!");
+				} else {
+					console.log(daysUntilMyBirthday + " DAY UNTIL MY BIRTHDAY!!!");
+				}
+
+				daysUntilMyBirthday--;
+			}
+
+			console.log("Happy Birthday to me...Everyone else forgot...");
+		</script>
+	</body>
+</html>
